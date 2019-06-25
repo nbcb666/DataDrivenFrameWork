@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from pageObjects.LoginPage_old import LoginPage
+from pageObjects.LoginPage import LoginPage
 
 class LoginAction(object):
     def __init__(self):
         #self.driver = driver
         print u"login...."
-    #@staticmethod
+    @staticmethod
     def login(driver,username,password):
         try:
             login = LoginPage(driver)
@@ -26,6 +26,7 @@ if __name__ == '__main__':
     driver = webdriver.Firefox(executable_path="C:\\wmh\\driver\\geckodriver")
     driver.get("https://mail.126.com")
     time.sleep(5)
-    LoginAction.login(driver,username="nbcb666",password="nbcbnbcb")
+    #logina = LoginAction()
+    LoginAction.login(driver,username = "nbcb666",password = "nbcbnbcb")
     time.sleep(5)
     driver.quit()

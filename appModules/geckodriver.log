@@ -1,13 +1,24 @@
-1561452399648	geckodriver	INFO	Listening on 127.0.0.1:50750
-1561452401692	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.mEJPziTjJfK0
-1561452401707	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
-1561452401707	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50756
-1561452402482	Marionette	INFO	Listening on port 50756
-1561452403698	Marionette	INFO	startBrowser 5dc35146-bda1-41ee-b44b-7314989f0331
-JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_8bcb85525537c1bbbf364f1431142c71.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
-[Child 1440] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-rn statement
-JavaScript warning: https://s3.music.126.net/web/s/core_9bdee2e774d3daa025b40bda83fb649e.js?9bdee2e774d3daa025b40bda83fb649e, line 133: unreachable code after return statement
-JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_28416339789a1e061310fabb04901043.js?28416339789a1e061310fabb04901043, line 11: unreachable code after return statement
-JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_28416339789a1e061310fabb04901043.js?28416339789a1e061310fabb04901043, line 11: unreachable code after return statement
-[Child 5652] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1561474573329	geckodriver	INFO	Listening on 127.0.0.1:49918
+1561474575374	mozprofile::profile	INFO	Using profile path C:\Users\ww\AppData\Local\Temp\rust_mozprofile.7LApXcUi4InI
+1561474575380	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1561474575406	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49926
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1561474576781	Marionette	INFO	Listening on port 49926
+1561474577848	Marionette	INFO	startBrowser 523ff3c1-7d73-4abe-a795-468978fa9912
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript warning: https://s3.music.126.net/web/s/core_e2b9960f3c0f61e847d54af119c0237e.js?e2b9960f3c0f61e847d54af119c0237e, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e2b9960f3c0f61e847d54af119c0237e.js?e2b9960f3c0f61e847d54af119c0237e, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_cef0fdb6e848f36af2914e14a29cc5f1.js?cef0fdb6e848f36af2914e14a29cc5f1, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_cef0fdb6e848f36af2914e14a29cc5f1.js?cef0fdb6e848f36af2914e14a29cc5f1, line 11: unreachable code after return statement
+[Child 4268] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 4268] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8488] WARNINUnable to read VR Path Registry from C:\Users\ww\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14004] WARN[Child 7652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7652] WARNING: *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -45,7 +45,7 @@ if __name__ == '__main__':
     #driver.maximize_window()
     LoginAction.login(driver, "nbcb666", "nbcbnbcb")
     time.sleep(5)
-    AddContactPerson.add(driver,u"楠楠","ersd2@qq.com",u"是","","")
+    AddContactPerson.add(driver,u"test__mobile","13156@qpww.com",u"是","","")
     time.sleep(3)
-    assert u"楠楠" in driver.page_source
+    assert u"test__mobile" in driver.page_source
     driver.quit()

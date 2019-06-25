@@ -20,19 +20,20 @@ excelObj = ParseExcel()
 excelObj.loadWorkBook(dataFilePath)
 
 def LaunchBrowser():
-    #创建Chrome浏览器的一个options实例对象
-    chrome_options = Options()
-    #向options实例中添加禁用扩展插件的设置参数项
-    chrome_options.add_argument("--disable-extensions")
-    #添加屏蔽--ignore--certificate--errors提示信息的设置参数项
-    chrome_options.add_experimental_option\
-        ("excludeSwitches",["ignore-certificate-errors"])
-    #添加浏览器最大化的设置参数项，已启动最大化
-    chrome_options.add_argument('--start-maximized')
-    #启动带有自定义设置的chrome浏览器
-    driver = webdriver.Chrome\
-        (executable_path="C:\\wmh\\driver\\chromedriver",chrome_options = chrome_options)
-    #访问126邮箱首页
+    # #创建Chrome浏览器的一个options实例对象
+    # chrome_options = Options()
+    # #向options实例中添加禁用扩展插件的设置参数项
+    # chrome_options.add_argument("--disable-extensions")
+    # #添加屏蔽--ignore--certificate--errors提示信息的设置参数项
+    # chrome_options.add_experimental_option\
+    #     ("excludeSwitches",["ignore-certificate-errors"])
+    # #添加浏览器最大化的设置参数项，已启动最大化
+    # chrome_options.add_argument('--start-maximized')
+    # #启动带有自定义设置的chrome浏览器
+    # driver = webdriver.Chrome\
+    #     (executable_path="C:\\wmh\\driver\\chromedriver",chrome_options = chrome_options)
+    # #访问126邮箱首页
+    driver = webdriver.Firefox(executable_path="C:\\wmh\\driver\\geckodriver")
     driver.get("http://mail.126.com")
     sleep(3)
     return driver
@@ -65,11 +66,11 @@ def test126MailAddContacts():
                 #创建浏览器实例对象
                 driver = LaunchBrowser()
                 logging.info(u"驱动浏览器，访问126邮箱主页")
-                sleep(10)
+                sleep(3)
 
                 #登录126邮箱
-                LoginAction.login(driver,username,password)
-                sleep(10)
+                LoginAction.login(driver, username, password)
+                sleep(5)
                 try:
                     assert u"收 信" in driver.page_source
                     logging.info\
@@ -78,7 +79,7 @@ def test126MailAddContacts():
                     logging.debug(u"用户%s登录后，页面断言关键字 收信 失败，"
                                   u"异常信息：%s" %(username,str(traceback.format_exc())))
                 #获取为第i行中用户添加的联系人数据sheet名
-                dataBookName = dataBookColumn[idx +1].value
+                dataBookName = dataBookColumn[idx +1]
                 #获取对应的数据表对象
                 dataSheet = excelObj.getSheetByName(dataBookName)
                 #获取联系人数据表中是否执行列对象
@@ -88,25 +89,25 @@ def test126MailAddContacts():
                 for id ,data in enumerate(isExecuteUser[1:]):
                     #循环遍历是否执行添加联系人列,
                     #如果被设置为添加，则进行联系人添加
-                    if data.value == "y":
+                    if data== "y":
                         #如果id行的联系人被设置为执行，则isExecuteNum+1
                         isExecuteNum +=1
                         #获取联系人表地第id+2行对象
                         rowContent = excelObj.getRow(dataSheet,id+2)
                         #获取联系人信息
                         contactPersonName= \
-                            rowContent[contacts_contactPersonName-1].value
+                            rowContent[contacts_contactPersonName-1]
                         #获取联系人邮箱
                         contactPersonEmail = \
-                            rowContent[contacts_contactPersonEmail-1].value
+                            rowContent[contacts_contactPersonEmail-1]
                         isStar = \
-                            rowContent[contacts_isStar-1].value
+                            rowContent[contacts_isStar-1]
                         contactPersonPhone = \
-                            rowContent[contacts_contactPersonMobile-1].value
+                            rowContent[contacts_contactPersonMobile-1]
                         contactPersonComment = \
-                            rowContent[contacts_contactPersonComment-1].value
+                            rowContent[contacts_contactPersonComment-1]
                         assertKeyWord = \
-                            rowContent[contacts_assertKeyWords-1].value
+                            rowContent[contacts_assertKeyWords-1]
 
                         print contactPersonName,contactPersonEmail,assertKeyWord
                         print contactPersonPhone,contactPersonComment,isStar
