@@ -1,0 +1,10 @@
+1560856785085	geckodriver	INFO	Listening on 127.0.0.1:55230
+1560856787128	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.Y0n9NFXck2FH
+1560856787128	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1560856787144	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55236
+1560856787831	Marionette	INFO	Listening on port 55236
+1560856788891	Marionette	INFO	startBrowser a6c1570d-c858-45fb-9ace-43cb76782ccc
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_c1c445f6665d311f46de29c19cbdd73d.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+[Child 4812] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+513
+[Child 2348] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052

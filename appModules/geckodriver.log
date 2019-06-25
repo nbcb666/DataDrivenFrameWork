@@ -1,0 +1,12 @@
+1561164724743	geckodriver	INFO	Listening on 127.0.0.1:57605
+1561164726787	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.PelcWrquj9mI
+1561164726802	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1561164726802	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57611
+1561164727672	Marionette	INFO	Listening on port 57611
+1561164729143	Marionette	INFO	startBrowser 699aa7f4-847d-4b85-8975-1d58418fb431
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_8bcb85525537c1bbbf364f1431142c71.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s3.music.126.net/web/s/core_9bdee2e774d3daa025b40bda83fb649e.js?9bdee2e774d3daa025b40bda83fb649e, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_9bdee2e774d3daa025b40bda83fb649e.js?9bdee2e774d3daa025b40bda83fb649e, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_28416339789a1e061310fabb04901043.js?28416339789a1e061310fabb04901043, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_28416339789a1e061310fabb04901043.js?28416339789a1e061310fabb04901043, line 11: unreachable code after return statement
+[Child 5652] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052

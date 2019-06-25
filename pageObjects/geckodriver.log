@@ -1,0 +1,61 @@
+1560861897282	geckodriver	INFO	Listening on 127.0.0.1:56379
+1560861899513	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.H1RfcsAuZwao
+1560861899513	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1560861899513	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56387
+1560861901085	Marionette	INFO	Listening on port 56387
+1560861903168	Marionette	INFO	startBrowser c363392a-3260-4f5a-b6aa-2ce41ca9316e
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_c1c445f6665d311f46de29c19cbdd73d.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_c1c445f6665d311f46de29c19cbdd73d.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_c1c445f6665d311f46de29c19cbdd73d.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_c1c445f6665d311f46de29c19cbdd73d.js, line 1: Error: WebGL: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 293: TypeError: this._builder is undefined
+line 11: unreachable code after return statement
+[Child 4064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600BB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+[Child 4064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+d/js/spread.js, line 1220: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://mimg.127.net/vip/spread/js/spread.js, line 1239: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://mimg.127.net/vip/spread/js/spread.js, line 1240: SyntaxError: 09 is not a legal ECMA-262 octal constant
+[Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+

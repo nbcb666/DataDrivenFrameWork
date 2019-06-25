@@ -1,0 +1,80 @@
+2019-06-23 23:12:04,361 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-23 23:12:04,361 TestMail126AddContacts.py[line:158] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 150, in test126MailAddContacts
+    ignoreUserName =excelObj.getCellOfValues() \
+TypeError: getCellOfValues() takes at least 2 arguments (1 given)
+
+2019-06-23 23:15:54,385 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-23 23:15:54,385 TestMail126AddContacts.py[line:158] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 150, in test126MailAddContacts
+    ignoreUserName =excelObj.getCellOfValues() \
+TypeError: getCellOfValues() takes at least 2 arguments (1 given)
+
+2019-06-23 23:19:19,608 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-23 23:19:19,608 TestMail126AddContacts.py[line:152] INFO 用户nbcb666被忽略执行
+
+2019-06-23 23:19:19,608 TestMail126AddContacts.py[line:158] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 153, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-23 23:47:49,316 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-23 23:47:49,318 TestMail126AddContacts.py[line:152] INFO 用户nbcb666被忽略执行
+
+2019-06-23 23:47:49,318 TestMail126AddContacts.py[line:158] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 153, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:25:30,273 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:25:30,275 TestMail126AddContacts.py[line:152] INFO 用户nbcb666被忽略执行
+
+2019-06-24 20:25:30,278 TestMail126AddContacts.py[line:158] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 153, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:32:07,128 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:32:07,130 TestMail126AddContacts.py[line:154] INFO 用户nbcb666被忽略执行
+
+2019-06-24 20:32:07,130 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 155, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:33:53,963 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:34:37,931 TestMail126AddContacts.py[line:154] INFO 用户nbcb666被忽略执行
+
+2019-06-24 20:34:43,848 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 155, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:36:36,086 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:37:08,956 TestMail126AddContacts.py[line:154] INFO 用户nbcb666被忽略执行
+
+2019-06-24 20:37:14,065 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 155, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:37:29,776 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:37:29,776 TestMail126AddContacts.py[line:154] INFO 用户nbcb666被忽略执行
+
+2019-06-24 20:37:29,776 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 155, in test126MailAddContacts
+    driver.quit()
+UnboundLocalError: local variable 'driver' referenced before assignment
+
+2019-06-24 20:52:08,595 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 20:52:08,596 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 53, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
+2019-06-24 21:10:20,756 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-24 21:10:20,756 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 53, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
