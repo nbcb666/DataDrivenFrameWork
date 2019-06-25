@@ -63,16 +63,16 @@ class ParseExcel(object):
     #         raise e
     def getRow(self,sheet,rowNo):
         # 获取sheet中某一行，返回的是这一行所有的数据内容组成的tuple
-        try:
-            for row in sheet.rows:  # 返回的row是一个tuple对象,sheet.rows所有行
-                for cell in row: #遍历每个单元格，并打印他们的行号、列号、值
+        rowList=[]
+        for row in sheet.rows:  # 返回的row是一个tuple对象,sheet.rows所有行
+            for cell in row: #遍历每个单元格，并打印他们的行号、列号、值
                     # print 'row: %s  column: %s  value: %s' % (cell.row,cell.column,cell.value)
-                    if cell.row == rowNo:#获取某一行的数据
+                if cell.row == rowNo:#获取某一行的数据
                         #print 'row: %s  column: %s  value: %s' % (cell.row, cell.column, cell.value)
                         #return cell.row, cell.column, cell.value
-                        return cell.value
-        except Exception,e:
-            raise e
+                    rowList.append(cell.value)
+        return rowList
+
 
 
     # def getColumn(self,sheet,colNo):
@@ -84,13 +84,16 @@ class ParseExcel(object):
     #         raise e
 
     def getColumn(self,sheet,colNo):
-
+        ls=[]
         for row in sheet.rows:  # 返回的row是一个tuple对象
             for cell in row:
                  # print 'row: %s  column: %s  value: %s' % (cell.row,cell.column,cell.value)
                 if cell.column == colNo:
                      #print 'row: %s  column: %s  value: %s' % (cell.row,cell.column,cell.value)
-                    print cell.value
+                    #print cell.value
+                    ls.append(cell.value)
+        return ls
+
 
 
     def getCellOfValues(self,sheet,coordinate=None,rowNo=None,colsNo=None):
@@ -182,13 +185,18 @@ if __name__ == '__main__':
     # print pe.getColsNumber(sheet) #获取最大列号
     #rows = pe.getRow(sheet,1) #获取第一行
     #print rows
-    print type(sheet)
-    cols = pe.getColumn(sheet,3)
+    #print type(sheet)
+    cols = pe.getColumn(sheet,5)
+
     print cols
+    print cols[1]
+    rows = pe.getRow(sheet,1)
+    print rows
+    print rows[1]
 
     #print pe.getCellOfValues(sheet,rowNo=1,colsNo=1)
-    pe.writeCell(sheet,u'我爱你祖国',rowNo=10,colsNo=10)
-    pe.writeCellCurrentTime(sheet,rowNo=10,colsNo=11)
+    #pe.writeCell(sheet,u'我爱你祖国',rowNo=10,colsNo=10)
+    #pe.writeCellCurrentTime(sheet,rowNo=10,colsNo=11)
 
 
 

@@ -44,30 +44,32 @@ def test126MailAddContacts():
         userSheet = excelObj.getSheetByName(u"126账号")
         #获取126账号sheet中是否执行列
         isExecuteUser = excelObj.getColumn(userSheet,account_isExecute)
+
         #获取sheet表中的数据表列
         dataBookColumn = excelObj.getColumn(userSheet,account_dataBook)
         print u"测试为126邮箱添加联系人执行开始。。。。"
 
         for idx,i in enumerate(isExecuteUser[1:]):
             #循环遍历126账号表中的账号，为需要执行的账号添加联系人
-            if i.value == "y":
-                print "enter if"
-
+            if i== "y":
                 #获取第i行数据 从第二行开始才有数据
                 userRow = excelObj.getRow(userSheet,idx+2)
+                print userRow
                 #获取第i行中的用户名
-                username = userRow[account_username-1].value
+                username = userRow[account_username-1]
+                print username
                 # 获取第i行中的密码
-                password = str(userRow[account_password-1].value)
+                password = str(userRow[account_password-1])
                 print username,password
 
                 #创建浏览器实例对象
                 driver = LaunchBrowser()
                 logging.info(u"驱动浏览器，访问126邮箱主页")
+                sleep(10)
 
                 #登录126邮箱
                 LoginAction.login(driver,username,password)
-                sleep(3)
+                sleep(10)
                 try:
                     assert u"收 信" in driver.page_source
                     logging.info\

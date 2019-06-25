@@ -78,3 +78,117 @@ AttributeError: 'unicode' object has no attribute 'value'
     if i.value == "y":
 AttributeError: 'unicode' object has no attribute 'value'
 
+2019-06-25 16:26:22,585 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:26:22,601 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 53, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
+2019-06-25 16:26:30,387 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:26:30,387 TestMail126AddContacts.py[line:160] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 53, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
+2019-06-25 16:28:14,226 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:28:14,242 TestMail126AddContacts.py[line:161] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 54, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
+2019-06-25 16:32:14,069 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:32:14,069 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 55, in test126MailAddContacts
+    if i.value == "y":
+AttributeError: 'unicode' object has no attribute 'value'
+
+2019-06-25 16:33:11,950 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:33:11,950 TestMail126AddContacts.py[line:161] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 60, in test126MailAddContacts
+    username = userRow[account_username-1].value
+TypeError: 'long' object has no attribute '__getitem__'
+
+2019-06-25 16:34:02,529 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:34:02,529 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 60, in test126MailAddContacts
+    username = userRow[account_username-1]
+TypeError: 'long' object has no attribute '__getitem__'
+
+2019-06-25 16:34:38,365 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:34:38,365 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 60, in test126MailAddContacts
+    username = userRow[account_username-1]
+TypeError: 'long' object has no attribute '__getitem__'
+
+2019-06-25 16:39:19,607 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:39:40,595 TestMail126AddContacts.py[line:69] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:40:11,403 TestMail126AddContacts.py[line:163] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 72, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 16:47:16,746 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:49:42,398 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:51:23,318 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:52:00,177 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:53:01,216 TestMail126AddContacts.py[line:161] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 16:53:43,328 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:54:03,869 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:54:13,861 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:54:44,075 TestMail126AddContacts.py[line:161] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 16:54:56,631 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:55:16,993 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:55:50,997 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:56:00,078 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:56:30,782 TestMail126AddContacts.py[line:161] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 16:57:27,862 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 16:57:37,562 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 16:58:18,130 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 71, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 17:00:23,538 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 17:00:45,253 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 17:02:19,650 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 71, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+  File "C:\wmh\DataDrivenFrameWork\appModules\LoginAction.py", line 20, in login
+    raise e
+TimeoutException: Message: 
+
+
+2019-06-25 17:03:38,210 TestMail126AddContacts.py[line:41] INFO 126邮箱添加联系人数据驱动测试开始。。。。
+2019-06-25 17:03:47,940 TestMail126AddContacts.py[line:67] INFO 驱动浏览器，访问126邮箱主页
+2019-06-25 17:03:57,944 TestMail126AddContacts.py[line:162] DEBUG 数据驱动框架主程序发生异常，异常信息为：Traceback (most recent call last):
+  File "C:\wmh\DataDrivenFrameWork\testScripts\TestMail126AddContacts.py", line 71, in test126MailAddContacts
+    LoginAction.login(driver,username,password)
+TypeError: unbound method login() must be called with LoginAction instance as first argument (got WebDriver instance instead)
+

@@ -5,7 +5,7 @@ class LoginAction(object):
     def __init__(self):
         #self.driver = driver
         print u"login...."
-    @staticmethod
+    #@staticmethod
     def login(driver,username,password):
         try:
             login = LoginPage(driver)
