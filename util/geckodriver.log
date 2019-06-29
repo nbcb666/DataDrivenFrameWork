@@ -1,7 +1,11 @@
-1560783495914	geckodriver	INFO	Listening on 127.0.0.1:53257
-1560783497942	mozprofile::profile	INFO	Using profile path C:\Users\Brown\AppData\Local\Temp\rust_mozprofile.pnbfC4wnDMCT
-1560783497942	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
-1560783497942	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53263
-1560783498725	Marionette	INFO	Listening on port 53263
-1560783500093	Marionette	INFO	startBrowser c950356b-6c55-4e4e-b4b6-7806e01a5dc9
-[Child 3312] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1561818890156	geckodriver	INFO	Listening on 127.0.0.1:55841
+1561818892214	mozprofile::profile	INFO	Using profile path C:\Users\ww\AppData\Local\Temp\rust_mozprofile.2JPoHe9QroQ2
+1561818892217	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1561818892234	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55847
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1561818893240	Marionette	INFO	Listening on port 55847
+1561818894181	Marionette	INFO	startBrowser d05ec450-b60c-479c-9130-1c053660a399
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Child 9072] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 9072] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052

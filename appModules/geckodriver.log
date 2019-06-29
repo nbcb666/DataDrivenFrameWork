@@ -1,18 +1,19 @@
-1561474573329	geckodriver	INFO	Listening on 127.0.0.1:49918
-1561474575374	mozprofile::profile	INFO	Using profile path C:\Users\ww\AppData\Local\Temp\rust_mozprofile.7LApXcUi4InI
-1561474575380	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
-1561474575406	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49926
+1561810677083	geckodriver	INFO	Listening on 127.0.0.1:52676
+1561810679137	mozprofile::profile	INFO	Using profile path C:\Users\ww\AppData\Local\Temp\rust_mozprofile.Hpfk1iWfbm58
+1561810679141	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1561810679158	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52682
 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
-1561474576781	Marionette	INFO	Listening on port 49926
-1561474577848	Marionette	INFO	startBrowser 523ff3c1-7d73-4abe-a795-468978fa9912
+1561810680175	Marionette	INFO	Listening on port 52682
+1561810681154	Marionette	INFO	startBrowser da8785f2-c87a-4ac9-9750-b54a42cd2424
 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
-JavaScript warning: https://s3.music.126.net/web/s/core_e2b9960f3c0f61e847d54af119c0237e.js?e2b9960f3c0f61e847d54af119c0237e, line 94: unreachable code after return statement
-JavaScript warning: https://s3.music.126.net/web/s/core_e2b9960f3c0f61e847d54af119c0237e.js?e2b9960f3c0f61e847d54af119c0237e, line 133: unreachable code after return statement
-JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_cef0fdb6e848f36af2914e14a29cc5f1.js?cef0fdb6e848f36af2914e14a29cc5f1, line 11: unreachable code after return statement
-JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_cef0fdb6e848f36af2914e14a29cc5f1.js?cef0fdb6e848f36af2914e14a29cc5f1, line 11: unreachable code after return statement
-[Child 4268] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 4268] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://s3.music.126.net/web/s/core_b5ab1dc7bfb8dfb6f60352f3a42f767b.js?b5ab1dc7bfb8dfb6f60352f3a42f767b, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_b5ab1dc7bfb8dfb6f60352f3a42f767b.js?b5ab1dc7bfb8dfb6f60352f3a42f767b, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_14ef62184b222f2f8fd363fd9cca7e6f.js?14ef62184b222f2f8fd363fd9cca7e6f, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_14ef62184b222f2f8fd363fd9cca7e6f.js?14ef62184b222f2f8fd363fd9cca7e6f, line 11: unreachable code after return statement
+[Child 3264] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 3264] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+le z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 8488] WARNINUnable to read VR Path Registry from C:\Users\ww\AppData\Local\openvr\openvrpaths.vrpath
 [Parent 9528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 9528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

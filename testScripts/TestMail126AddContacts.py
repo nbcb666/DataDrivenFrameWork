@@ -102,8 +102,9 @@ def test126MailAddContacts():
                             rowContent[contacts_contactPersonEmail-1]
                         isStar = \
                             rowContent[contacts_isStar-1]
-                        contactPersonPhone = \
+                        contactPersonPhone1 = \
                             rowContent[contacts_contactPersonMobile-1]
+                        contactPersonPhone=str(contactPersonPhone1)
                         contactPersonComment = \
                             rowContent[contacts_contactPersonComment-1]
                         assertKeyWord = \
